@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llReportPopWindow"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/pop_icon_down"
+    android:gravity="center"
+    android:paddingLeft="50dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tvPraisePopWindow"
+        style="@style/SelectPopWindow"
+        android:drawablePadding="5dp"
+        android:drawableTop="@drawable/icon_praise"
+        android:text="点赞" />
+
+    <TextView
+        android:id="@+id/tvReplyPopWindow"
+        style="@style/SelectPopWindow"
+        android:drawablePadding="5dp"
+        android:drawableTop="@drawable/icon_reply"
+        android:text="回复" />
+
+    <TextView
+        android:id="@+id/tvCopyPopWindow"
+        style="@style/SelectPopWindow"
+        android:drawablePadding="5dp"
+        android:drawableTop="@drawable/icon_copy"
+        android:text="复制" />
+
+    <TextView
+        android:id="@+id/tvReportPopWindow"
+        style="@style/SelectPopWindow"
+        android:drawablePadding="5dp"
+        android:drawableTop="@drawable/icon_report"
+        android:text="举报" />
+    <!--</LinearLayout>-->
+</LinearLayout>
